@@ -1,19 +1,23 @@
 .meat {
-  color: brown;
+  color: #480000;
 }
 
 .veggie {
-  color: green;  
+  color: #003300;  
+}
+
+.fruit {
+  color: #CC0000;
 }
 
 .canned {
-  color: gray;  
+  color: #585858;  
 }
 
 .cleaning {
-  color: yellow;  
+  color: #CCCC00;  
 }
 
 .personal {
-  color: blue;  
+  color: #0000CC;  
 }
