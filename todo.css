@@ -5,12 +5,12 @@
 }
 
 #medium {
-  color: darkblue;
+  color: DarkBlue;
   list-style-type: square;
 }
 
 #low {
-  color: dodgerblue;
+  color: DodgerBlue;
   list-style-type: square;
 }
 
