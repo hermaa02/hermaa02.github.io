@@ -1,12 +1,16 @@
 #high {
   color: red;
+  list-style-type: square;
+  
 }
 
 #medium {
   color: darkblue;
+  list-style-type: square;
 }
 
 #low {
   color: dodgerblue;
+  list-style-type: square;
 }
 
