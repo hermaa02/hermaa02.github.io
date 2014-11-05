@@ -1,38 +1,19 @@
-#high {
-  color: red;
-  list-style-type: square;
-  
+.meat {
+  color: brown;
 }
 
-#medium {
-  color: DarkBlue;
-  list-style-type: square;
+.veggie {
+  color: green;  
 }
 
-#low {
-  color: DodgerBlue;
-  list-style-type: square;
+.canned {
+  color: gray;  
 }
 
-#high-complete {
-  display: block;
-  color: red;
-  list-style-type: square;
-  text-declaration: line-through
-  
+.cleaning {
+  color: yellow;  
 }
 
-#medium-complete {
-  color: DarkBlue;
-  list-style-type: square;
-  text-declaration: line-through
-}
-
-#low-complete {
-  color: DodgerBlue;
-  list-style-type: square;
-  text-declaration: line-through
-}
-#complete {
-  text-declaration: line-through;
+.personal {
+  color: blue;  
 }
