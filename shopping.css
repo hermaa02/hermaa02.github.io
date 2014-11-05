@@ -1,0 +1,37 @@
+#high {
+  color: red;
+  list-style-type: square;
+  
+}
+
+#medium {
+  color: DarkBlue;
+  list-style-type: square;
+}
+
+#low {
+  color: DodgerBlue;
+  list-style-type: square;
+}
+
+#high-complete {
+  color: red;
+  list-style-type: square;
+  text-declaration: line-through
+  
+}
+
+#medium-complete {
+  color: DarkBlue;
+  list-style-type: square;
+  text-declaration: line-through
+}
+
+#low-complete {
+  color: DodgerBlue;
+  list-style-type: square;
+  text-declaration: line-through
+}
+#complete {
+  text-declaration: line-through;
+}
