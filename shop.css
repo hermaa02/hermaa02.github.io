@@ -21,3 +21,7 @@
 .snack {
   color: #0000CC;  
 }
+
+#complete {
+  list-style-type: &#x2713;
+}
