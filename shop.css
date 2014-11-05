@@ -23,5 +23,5 @@
 }
 
 #complete {
-  list-style-type: &#x2713;
+  text-decoration: line-through;
 }
