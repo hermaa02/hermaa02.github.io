@@ -37,9 +37,10 @@ body {
 }
 
 section {
- vertical-align: middle;
  border: 1px solid red;
  width: 85%;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 article {
