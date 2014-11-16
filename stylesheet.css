@@ -15,9 +15,11 @@ p {
  top: 0px;
  left: 0px; 
  border-bottom: 4px solid #FF3300;
+ font-size: 15pt;
 }
 nav>ul>li {
  display: inline;
+ 
 }
 
 body {
