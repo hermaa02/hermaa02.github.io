@@ -16,6 +16,7 @@ header {
  margin-right: auto;
  border-bottom: 4px solid #FF3300;
  font-size: 15pt;
+ clear: both;
 }
 nav>ul>li {
  display: inline;
