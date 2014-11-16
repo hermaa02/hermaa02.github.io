@@ -46,10 +46,12 @@ article {
  float: left; 
  width: 75%;
  border: 1px solid black;
+ padding 3px;
 }
 
 aside {
  float: left;
  width: 20%;
  border: 1px solid black;
+ padding: 3px;
 }
