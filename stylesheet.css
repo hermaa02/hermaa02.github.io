@@ -13,7 +13,8 @@ p {
  color: white;
  height: 50px;
  top: 0px;
- left: 0px;
+ left: 0px; 
+ border-bottom: 4px solid #FF3300;
 }
 nav>ul>li {
  display: inline;
