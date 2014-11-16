@@ -7,8 +7,11 @@ header {
  display: inline;
  list-style: none;
  width: 85%;
+ margin: 0;
+ padding: 6px 20px;
  background-color: #282828;
  color: white;
+ text-align: center;
  margin-left: auto;
  margin-right: auto;
  border-bottom: 4px solid #FF3300;
