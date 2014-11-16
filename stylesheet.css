@@ -12,8 +12,8 @@ p {
  background-color: #282828;
  color: white;
  height: 50px;
- top: 0px;
- left: 0px; 
+ margin-left: auto;
+ margin-right: auto;
  border-bottom: 4px solid #FF3300;
  font-size: 15pt;
 }
