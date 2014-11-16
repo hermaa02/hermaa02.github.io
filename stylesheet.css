@@ -6,10 +6,9 @@ p {
 }
 .nav {
  display: inline;
+ list-style: none;
  position: fixed;
  width: 85%;
- margin-left: auto;
- margin-right: auto;
  background-color: #282828;
  color: white;
  height: 50px;
