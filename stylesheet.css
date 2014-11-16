@@ -6,12 +6,9 @@ header {
 .nav {
  display: inline;
  list-style: none;
- position: fixed;
  width: 85%;
  background-color: #282828;
  color: white;
- top: 0;
- left: 0;
  margin-left: auto;
  margin-right: auto;
  border-bottom: 4px solid #FF3300;
