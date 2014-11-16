@@ -19,15 +19,13 @@ header {
 }
 nav>ul>li {
  display: inline;
- 
 }
 
 body {
-	background-color: #F8F8F8;
+ background-color: #F8F8F8;
 }
 
 section {
- margin-top: 50px;
  vertical-align: middle;
  border: 1px solid red;
  width: 85%;
