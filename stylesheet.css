@@ -20,9 +20,9 @@ header {
 nav>ul>li {
  display: inline;
 }
-.nav ul li a:hover {
-	background-color: #F8F8F8 ;
-	color: #FF3300;
+nav ul li a:hover {
+ background-color: #F8F8F8 ;
+ color: #FF3300;
 }
 
 body {
