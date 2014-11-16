@@ -22,14 +22,17 @@ nav>ul>li {
 body {
  margin-top: 50px;
  vertical-align: middle;
+ border: 1px solid red;
 }
 
 section {
  float: left; 
  width: 60%;
+ border: 1px solid black;
 }
 
 aside {
  float: left;
  width: 25%;
+ border: 1px solid black;
 }
