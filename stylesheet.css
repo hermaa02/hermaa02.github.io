@@ -22,6 +22,10 @@ nav>ul>li {
  
 }
 
+body {
+	background-color: #F8F8F8;
+}
+
 section {
  margin-top: 50px;
  vertical-align: middle;
