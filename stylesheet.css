@@ -21,6 +21,12 @@ header {
 nav>ul>li {
  display: inline;
 }
+nav ul li a {
+ padding: 6px 20px;
+ background-color: #282828 ;
+ color: White;
+ text-decoration: none;
+}
 nav ul li a:hover {
  background-color: #F8F8F8 ;
  color: #FF3300;
