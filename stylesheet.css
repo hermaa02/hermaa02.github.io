@@ -22,3 +22,11 @@ nav>ul>li {
 body {
  margin-top: 50px;
 }
+
+section {
+ float: left; 
+}
+
+aside {
+ float: left;
+}
