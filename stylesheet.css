@@ -6,4 +6,14 @@ p {
 }
 .nav {
  display: inline;
+ position: fixed;
+ width=85%;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #282828 ;
+ height: 20px;
+}
+
+body {
+ 
 }
