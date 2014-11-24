@@ -39,7 +39,7 @@
       background-color: lightgreen;
     }
   
-  .count{
+  h2#count{
     position: relative;
     top: 250;
     left: 75;
@@ -51,17 +51,17 @@
   <script type="text/javascript">
   
   counter = 0;
-  changeThisPageFunc = function() {
+  myCounter = function() {
   counter = counter + 1; 
-  var p = document.querySelector('h2.count')
-  h2.innerHTML = "Correct:" counter;
+  var c = document.querySelector('h2#count')
+  h2#count.innerHTML = "Correct:" + counter;
   }
   </script>
 </head>
 
   <body>
       <nav>
-        <input type=checkbox onclick="changeThisPageFunc();"></checkbox>
+        <input type=checkbox onclick="myCounter();"></checkbox>
         <section class="answer">
           <p>Laden or Unladen?</p>
         </section>
@@ -74,7 +74,7 @@
       </nav>
 
       <nav>
-        <input type=checkbox onclick="changeThisPageFunc();"></checkbox>
+        <input type=checkbox onclick="myCounter();"></checkbox>
         <section class="answer">
           <p>1861</p>
         </section>
@@ -84,7 +84,7 @@
       </nav>
       
       <nav>
-        <input type=checkbox onclick="changeThisPageFunc();"></checkbox>
+        <input type=checkbox onclick="myCounter();"></checkbox>
         <section class="answer">
           <p>Green!</p>
         </section>
@@ -94,7 +94,7 @@
       </nav>
   
       <nav>
-        <input type=checkbox onclick="changeThisPageFunc();"></checkbox>
+        <input type=checkbox onclick="myCounter();"></checkbox>
         <section class="answer">
           <p>10</p>
         </section>
