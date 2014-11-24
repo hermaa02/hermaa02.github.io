@@ -40,18 +40,18 @@
     }
   
   h2#count{
-    position: relative;
+    position: absolute;
+    top: 250;
   }
 
   </style>
   
   <script type="text/javascript">
-  
-  counter = 0;
-  myCounter = function() {
-  counter = counter + 1; 
-  var c = document.querySelector('h2#count')
-  h2#count.innerHTML = "Correct:" + counter;
+    counter = 0;
+    myCounter = function() {
+      counter = counter + 1; 
+    var c = document.querySelector('h2#count')
+    h2#count.innerHTML = "Correct:" + counter;
   }
   </script>
 </head>
