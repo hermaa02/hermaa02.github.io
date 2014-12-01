@@ -39,7 +39,7 @@
       background-color: lightgreen;
     }
   
-  h2#count{
+  #count{
     position: absolute;
     top: 250;
   }
@@ -54,7 +54,7 @@
     counter = 0;
     myCounter = function() {
       counter = counter + 1; 
-    var c = document.querySelector('h2#count');
+    var c = document.querySelector('#count');
     c.innerHTML = "Correct:" + counter;
   }
   </script>
@@ -68,7 +68,7 @@
         <section class="question">
           <p>What is the average airspeed of an African Swallow?</p>
         </section>
-        <h2 class="count">0</h2>
+        <h2 id="count">0</h2>
 
       </nav>
 
