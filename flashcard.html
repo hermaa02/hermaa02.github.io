@@ -52,15 +52,20 @@
     
   <script type="text/javascript">
     counter = 0;
-    myCounter = function() {
-      counter = counter + 1; 
+    myCounter = function(cbid) {
+      theCheckBox= document.querySelector("#"+cbid);
+      if(theCheckbox.checked) {
+        counter = counter + 1;
+      } else {
+        counter = counter - 1;
+      }
     var c = document.querySelector('#count');
     c.innerHTML = "Correct:" + counter;
   }
   </script>
   
       <nav>
-        <input type=checkbox onclick="myCounter();"></checkbox>
+        <input id="cb1" type=checkbox onclick="myCounter(\"cb1\");"></checkbox>
         <section class="answer">
           <p>Laden or Unladen?</p>
         </section>
@@ -73,7 +78,7 @@
       </nav>
 
       <nav>
-        <input type=checkbox onclick="myCounter();"></checkbox>
+        <input id="cb2" type=checkbox onclick="myCounter(\"cb2\");"></checkbox>
         <section class="answer">
           <p>1861</p>
         </section>
@@ -83,7 +88,7 @@
       </nav>
       
       <nav>
-        <input type=checkbox onclick="myCounter();"></checkbox>
+        <input id="cb3" type=checkbox onclick="myCounter(\"cb3\");"></checkbox>
         <section class="answer">
           <p>Green!</p>
         </section>
@@ -93,7 +98,7 @@
       </nav>
   
       <nav>
-        <input type=checkbox onclick="myCounter();"></checkbox>
+        <input id="cb4" type=checkbox onclick="myCounter(\"cb4\");"></checkbox>
         <section class="answer">
           <p>10</p>
         </section>
