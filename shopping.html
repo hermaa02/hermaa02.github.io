@@ -15,7 +15,10 @@
 <script>
     addGroceryItem = function() {
         listitem = document.querySelector("#additem");
-        listi = document.createElement("li")
+        createItem = document.createElement("li")
+        textnode = document.createTextNote(listitem);
+        createItem.appendChild(textnode);
+        document.getElementById("additem").appendchild(listitem);
     }
     
 </script>
