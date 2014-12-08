@@ -17,9 +17,9 @@
 <script>
     addItem = function() {
         myUL = document.querySelector("#groecerylist");
-        listitem = document.querySelector("#additem").value;
+        listitem = document.querySelector("#additem");
         createItem = document.createElement("li");
-        textnode = document.createTextNode(listitem);
+        textnode = document.createTextNode(listitem.value);
         createItem.appendChild(textnode);
         document.getElementById("additem").appendChild(listitem);
     }
