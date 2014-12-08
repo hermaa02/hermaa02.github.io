@@ -4,16 +4,19 @@
     <title>Grocery list</title>
 </head>
 <body>
-<h1>Grocery list</h1>
-<ul>
+<main>
+    <h1>Grocery list</h1>
+    <ul id="GroceryList">
+</main>
 
 </ul>
 <label for "additem">Add Grocery Item:</label>
 <input type="text" id="additem" value="" />
-<button onclick="addItem();">Add</button>
+<button onclick="addItem();">Add Item</button>
 
 <script>
     addItem = function() {
+        myUL = document.querySelector("#groecerylist");
         listitem = document.querySelector("#additem").value;
         createItem = document.createElement("li")
         textnode = document.createTextNode(listitem);
