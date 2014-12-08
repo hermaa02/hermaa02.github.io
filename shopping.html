@@ -6,18 +6,19 @@
 <body>
 <h1>Grocery list</h1>
 <ul>
-    <li class="meat">Pork chops</li>
-    <li class="fruit" id="complete">Apple sauce</li>
-    <li class="veggie" id="complete">Brussel sprouts</li>
-    <li class="canned">Spaghetti-Os</li>
-    <li class="cleaning">Clorox wipes</li>
-    <li class="snack" id="complete">Pretzels</li>
-    <li class="veggie">Lettuce</li>
-    <li class="fruit">Oranges</li>
-    <li class="meat">Beef</li>
-    <li class="canned">Tomato sauce</li>
-</ul>
 
+</ul>
+<label for "additem">Add Grocery Item:</label>
+<input type="text" id="additem">
+<button onclick="addGroceryItem();">Add</button>
+
+<script>
+    addGroceryItem = function() {
+        listitem = document.querySelector("#additem");
+        listi = document.createElement("li")
+    }
+    
+</script>
 
 </body>
 </html>
