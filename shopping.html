@@ -14,7 +14,7 @@
 
 <script>
     addGroceryItem = function() {
-        listitem = document.querySelector("#additem");
+        listitem = document.querySelector("#additem").value;
         createItem = document.createElement("li")
         textnode = document.createTextNote(listitem);
         createItem.appendChild(textnode);
