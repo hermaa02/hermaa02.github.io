@@ -21,7 +21,8 @@
         createItem = document.createElement("li");
         textnode = document.createTextNode(listitem.value);
         createItem.appendChild(textnode);
-        document.getElementById("additem").appendChild(listitem);
+        myUL.appendChild(createItem);
+        //document.getElementById("additem").appendChild(listitem);
     }
     
 </script>
