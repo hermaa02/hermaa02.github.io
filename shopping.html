@@ -20,10 +20,13 @@
         listitem = document.querySelector("#additem");
         createItem = document.createElement("li");
         textnode = document.createTextNode(listitem.value);
+        createItem.appendChild('<input type=checkbox>')
         createItem.appendChild(textnode);
         myUL.appendChild(createItem);
         listitem.value = "";
     }
+    
+    
     
 </script>
 
