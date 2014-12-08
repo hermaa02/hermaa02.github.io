@@ -10,15 +10,15 @@
 </ul>
 <label for "additem">Add Grocery Item:</label>
 <input type="text" id="additem">
-<button onclick="addGroceryItem();">Add</button>
+<button onclick="addItem();">Add</button>
 
 <script>
-    addGroceryItem = function() {
+    addItem = function() {
         listitem = document.querySelector("#additem").value;
         createItem = document.createElement("li")
         textnode = document.createTextNote(listitem);
         createItem.appendChild(textnode);
-        document.getElementById("additem").appendchild(listitem);
+        document.getElementById("additem").appendChild(listitem);
     }
     
 </script>
