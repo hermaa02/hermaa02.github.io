@@ -16,13 +16,12 @@
 
 <script>
     addItem = function() {
-        myUL = document.querySelector("#groecerylist");
+        myUL = document.querySelector("#GroceryList");
         listitem = document.querySelector("#additem");
         createItem = document.createElement("li");
         textnode = document.createTextNode(listitem.value);
         createItem.appendChild(textnode);
         myUL.appendChild(createItem);
-        //document.getElementById("additem").appendChild(listitem);
         listitem.value = "";
     }
     
