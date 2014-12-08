@@ -20,7 +20,7 @@
         listitem = document.querySelector("#additem");
         createItem = document.createElement("li");
         textnode = document.createTextNode(listitem.value);
-        createItem.appendChild('<input type=checkbox>')
+        // checkbox should be appeneded to the createItem
         createItem.appendChild(textnode);
         myUL.appendChild(createItem);
         listitem.value = "";
