@@ -9,14 +9,14 @@
 
 </ul>
 <label for "additem">Add Grocery Item:</label>
-<input type="text" id="additem" value=""/>
+<input type="text" id="additem" value="" />
 <button onclick="addItem();">Add</button>
 
 <script>
     addItem = function() {
         listitem = document.querySelector("#additem").value;
         createItem = document.createElement("li")
-        textnode = document.createTextNote(listitem);
+        textnode = document.createTextNode(listitem);
         createItem.appendChild(textnode);
         document.getElementById("additem").appendChild(listitem);
     }
