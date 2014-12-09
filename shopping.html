@@ -15,6 +15,7 @@
 <button onclick="addItem();">Add Item</button>
 
 <script>
+    counter = 0;
     addItem = function() {
         myUL = document.querySelector("#GroceryList");
         listitem = document.querySelector("#additem");
@@ -23,7 +24,16 @@
         // checkbox should be appeneded to the createItem
         createItem.appendChild(textnode);
         myUL.appendChild(createItem);
+        counter = counter + 1
+        
+        var checkbox = document.createElement("input");
+        checkbox.innerHTML = "<input id=counter type=checkbox;">"    
+    
+        
+        
+        
         listitem.value = "";
+        
     }
     
     
