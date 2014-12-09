@@ -26,6 +26,13 @@
         myUL.appendChild(createItem);
         counter = counter + 1
         
+        
+        var createCheckBox = document.createElement("input");
+        createCheckBox.type = "checkbox";
+        createCheckBox.id="cb"+ counter;
+        
+        createItem.appendChild(createCheckBox);
+        
 
         listitem.value = "";
         
