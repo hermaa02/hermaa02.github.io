@@ -20,20 +20,17 @@
         myUL = document.querySelector("#GroceryList");
         listitem = document.querySelector("#additem");
         createItem = document.createElement("li");
-        textnode = document.createTextNode(listitem.value);
-        // checkbox should be appeneded to the createItem
-        createItem.appendChild(textnode);
-        myUL.appendChild(createItem);
-        counter = counter + 1
-        
         
         var createCheckBox = document.createElement("input");
         createCheckBox.type = "checkbox";
-        createCheckBox.id="cb"+ counter;
+        createCheckBox.id="cb"+ counter;        
+        createItem.appendChild(createCheckBox);   
         
-        createItem.appendChild(createCheckBox);
+        textnode = document.createTextNode(listitem.value);
+        createItem.appendChild(textnode);
+        myUL.appendChild(createItem);
         
-
+        counter = counter + 1
         listitem.value = "";
         
     }
