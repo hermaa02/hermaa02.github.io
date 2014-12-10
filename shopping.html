@@ -1,14 +1,15 @@
 <html>
 <head>
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
-    <title>Grocery list</title>
+    <title>Grocery List</title>
 </head>
 <body>
 <nav>
     <ul class ="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="me.html">About me</a></li>
-        <li><a href ="schedule.html">Schedule</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="shopping.html">Grocery list</a></li>
     </ul>
 </nav>
 <main>
@@ -30,7 +31,7 @@
         
         var createCheckBox = document.createElement("input");
         createCheckBox.type = "checkbox";
-        createCheckBox.id="cb"+ counter;        
+        createCheckBox.id="cb" + counter;        
         createItem.appendChild(createCheckBox);   
         
         textnode = document.createTextNode(listitem.value);
@@ -39,11 +40,7 @@
         
         counter = counter + 1
         listitem.value = "";
-        
     }
-    
-    
-    
 </script>
 
 </body>
