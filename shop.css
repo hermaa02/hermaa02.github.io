@@ -1,18 +1,18 @@
 .produce {
-  color: #660000;
+  color: red;
 }
 
 .meat {
-  color: #003300;  
+  color: brown;  
 }
 
 .dairy {
-  color: #CC0000;
+  color: yellow;
 }
 
 
-.snack {
-  color: #0000CC;  
+.snacks {
+  color: blue;  
 }
 
 #done {
