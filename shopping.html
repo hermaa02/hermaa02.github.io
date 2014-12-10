@@ -30,7 +30,6 @@
 <button onclick="addItem();">Add Item</button>
 
 <script>
-    counter = 0;
     addItem = function() {
         myUL = document.querySelector("#GroceryList");
         listitem = document.querySelector("#additem");
@@ -38,17 +37,23 @@
         
         var createCheckBox = document.createElement("input");
         createCheckBox.type = "checkbox";
-        createCheckBox.id="cb" + counter;        
+        cat = document.querySelector("#category");
+        catvalue = document.createTextNode(cat.value);
+        createCheckBox.id= catvalue;        
         createItem.appendChild(createCheckBox);   
         
         textnode = document.createTextNode(listitem.value);
         createItem.appendChild(textnode);
         myUL.appendChild(createItem);
         
-        counter = counter + 1
         listitem.value = "";
     }
-    
+
+    checkMe = function() {
+        myLi = document.querySelector("#additem");
+        
+        myLi.
+    }    
 
     
 </script>
