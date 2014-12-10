@@ -35,11 +35,11 @@
         listitem = document.querySelector("#additem");
         createItem = document.createElement("li");
         
-        var createCheckBox = document.createElement("input");
+        createCheckBox = document.createElement("input");
         createCheckBox.type = "checkbox";
+        
         cat = document.querySelector("#category");
-        catvalue = document.createTextNode(cat.value);
-        createCheckBox.id= catvalue;        
+        createItem.classList.add(cat.value);
         createItem.appendChild(createCheckBox);   
         
         textnode = document.createTextNode(listitem.value);
