@@ -15,6 +15,6 @@
   color: blue;  
 }
 
-#done {
+.done {
   text-decoration: line-through;
 }
