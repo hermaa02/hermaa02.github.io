@@ -37,7 +37,7 @@
         
         createCheckBox = document.createElement("input");
         createCheckBox.type = "checkbox";
-        createCheckBox.onclick = "checkMe()";   //pass it a parameter? add the 'cb' + counter?
+        createCheckBox.onclick = checkMe();   //pass it a parameter? add the 'cb' + counter?
         
         cat = document.querySelector("#category");
         createItem.classList.add(cat.value);
@@ -52,7 +52,12 @@
         checkMe = function() {
             myLi = document.querySelector("#additem");
 
-            myLi.innterHTML = "<strike>"
+            if(myLi.checked) {
+                myLi.classList.add("done");
+            } else {
+                myList.classList.remove("done");
+            }   
+                
             }
 </script>
 
